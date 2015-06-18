@@ -8,4 +8,11 @@ x = "Hello, James"
 
 y = [x,"stuff",18,["yes","i","am","doing","this"]]
 for element in y:
-    print element
+    if element == "stuff":
+        print element
+    elif type(element) == type(int()):
+        print element,"this is a number!"
+    else:
+        print "wellllll, I wish it had worked, but it didn't."
+        print "le-si"
+        
